@@ -1,6 +1,6 @@
 # AppMan My Playlist 2020
 
-I am a customer who want you to build an application about creating playlist (like spotify) with the following requirements: 
+I am a customer who want you to build a web application (both `frontend` and `backend`) about creating playlist (like spotify) with the following requirements: 
 
 | User Story | Acceptance Criteria |
 |:---|:---|
@@ -13,11 +13,27 @@ I am a customer who want you to build an application about creating playlist (li
 ## Also, we already prepared some stuff for you!!! :D
 
 ### 1. Interface
+- Use below mockup to create the web application
 ![Mockup_1](mockup/1_create_playlist.PNG)
 ![Mockup_2](mockup/2_manage_playlist.PNG)
 
 ### 2. Songs
+- Use this data to be the initial data for backend side
 [JSON of songs list](songs.json)
+
+## Technical Requirements
+
+- The application must separate `frontend` and `backend` into a different application
+
+### `frontend`
+
+- `frontend` application must be built by modern frontend JavaScript library / framework such as `React.js`, `Vue.js`, `Angular.js`, etc with concept of `SPA`
+
+### `backend`
+
+- `backend` application must be build by modern Node.js library such as `Express`, `Koa`, `Hapi`, `Loopback`, etc with concept of `RESTful API`
+- `backend` application must connect with database
+- Database can be SQL, NOSQL, etc
 
 
 ## How we score you??!!!
