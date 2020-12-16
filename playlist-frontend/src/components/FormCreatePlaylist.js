@@ -62,15 +62,7 @@ const Title = styled.span`
 `;
 
 function FormCreatePlaylist(callback) {
-  const [values, setValues] = useState({
-    title: "",
-    details: "",
-    party_size: ""
-    // date:''
-  });
-
   const [name ,setName] = useState("")
-
   const [isSubmitting] = useState(false);
 
   // const handleChange = (e) => {
@@ -84,7 +76,6 @@ function FormCreatePlaylist(callback) {
   const handleSubmit = (e) => {
     storePlaylist(name) 
     // e.preventDefault();
-    
     // console.log(values,"1")
     // PostAPI({...values, user_id: userId})
     // console.log(userId)
