@@ -6,7 +6,7 @@ const Globalstyle = createGlobalStyle`
 
   html, body, #root {
     height: 100vh;
-    width: 100vw;
+    width: 100vh;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     list-style: none;
