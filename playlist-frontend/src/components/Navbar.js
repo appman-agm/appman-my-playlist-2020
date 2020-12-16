@@ -7,10 +7,13 @@ import { storePlaylist } from "./../services/APIsong";
 
 const Container = styled.div`
   width: 15%;
+  height: 100vh;
   background-color: #636363;
   margin: 0;
   padding: 0;
-  border: 5px solid black;
+  border-right: 5px solid black;
+  position: fixed;
+  overflow-x: hidden;
 `;
 
 const HeaderWrapper = styled.div`
@@ -24,9 +27,17 @@ const NewPlaylist = styled.span`
   display: flex;
   color: #fff;
   flex-direction: column;
-  
+ justify-content: center; 
 `;
-
+const Logout = styled.span`
+  font-size:1.5rem;
+  font-weight: 600;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  margin-top: 38rem;
+  justify-content: center; 
+ `;
 const Close = styled.div`
   font-size:2rem;
   display: flex;
@@ -195,7 +206,8 @@ function NavBar(callback) {
             </Modal>
             {/* <Link to="/Newplaylist">+ New Playlist</Link>           */}
           </Action>
-             {play.map( (item) => (<p>{item.name}</p>))}  
+             {play.map( (item) => (<p>{item.name}</p>))}
+              <Logout>Logout</Logout>
         </ActionContainer>
       </Wrapper>
     </Container>

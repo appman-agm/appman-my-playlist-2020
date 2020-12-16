@@ -6,8 +6,9 @@ const Container = styled.div`
   width: 85%;
   height: 100%;
   background-color: #ffff;
-  margin: 0;
+  margin-left: 15rem;
   padding: 0;
+  overflow-x: hidden;
 `;
 
 const Wrapper = styled.div`
@@ -169,7 +170,7 @@ function Content() {
         </Pic>
         <RightHeader>
           <h1>MY PLAYLIST</h1>
-          <span>CREART BY asdjalsdjldsjf: 2 song ,7 min 44 sec</span>
+          <span>CREART BY Ajarnshilin: 2 song ,7 min 44 sec</span>
           </RightHeader>
           </Header>
             <SongContainer>
